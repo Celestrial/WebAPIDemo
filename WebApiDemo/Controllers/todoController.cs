@@ -13,6 +13,7 @@ using WebApiDemo.Models;
 
 namespace WebApiDemo.Controllers
 {
+//    [Authorize]
     public class todoController : ApiController
     {
         private WebApiDemoContext db = new WebApiDemoContext();

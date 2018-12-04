@@ -204,11 +204,14 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\todoController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\EmployeeService.cs" />
+    <Compile Include="Models\Register.cs" />
     <Compile Include="Models\TODO.cs" />
     <Compile Include="Models\WebApiDemoContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
